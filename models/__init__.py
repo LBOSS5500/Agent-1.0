@@ -1,4 +1,4 @@
-"""Models package for Agent-1.0."""
+"""Models package for Social Media AI Agent."""
 
 from .agent import Agent, AgentConfig, AgentTask, AgentCapability, AgentStatus
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Flask web application for Agent-1.0."""
+"""Flask web application for Social Media AI Agent."""
 
 from flask import Flask, request, jsonify
 from models import Agent, AgentConfig, AgentTask, AgentCapability, AgentStatus
@@ -16,8 +16,9 @@ agents = {}
 def home():
     """Home page with basic information."""
     return jsonify({
-        "message": "Agent-1.0 API",
+        "message": "Social Media AI Agent API",
         "version": "1.0.0",
+        "description": "AI-powered social media management agent system",
         "endpoints": {
             "GET /": "This information",
             "POST /agents": "Create a new agent",

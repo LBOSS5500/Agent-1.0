@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Example usage of the Agent-1.0 models."""
+"""Example usage of the Social Media AI Agent models."""
 
 from models import Agent, AgentConfig, AgentTask, AgentCapability, AgentStatus
 from datetime import datetime
@@ -8,7 +8,7 @@ from datetime import datetime
 def main():
     """Demonstrate basic agent functionality."""
     
-    print("=== Agent-1.0 Example ===\n")
+    print("=== Social Media AI Agent Example ===\n")
     
     # 1. Create an agent configuration
     print("1. Creating agent configuration...")

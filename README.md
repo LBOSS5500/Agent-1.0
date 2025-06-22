@@ -1,10 +1,10 @@
-# Agent-1.0
+# Social Media AI Agent
 
 AI-powered social media management agent system.
 
 ## Overview
 
-Agent-1.0 is a Python-based framework for creating and managing AI agents specialized in social media management tasks. The system provides a robust foundation for building intelligent agents that can handle content generation, analysis, scheduling, analytics, and optimization.
+Social Media AI Agent is a Python-based framework for creating and managing AI agents specialized in social media management tasks. The system provides a robust foundation for building intelligent agents that can handle content generation, analysis, scheduling, analytics, and optimization.
 
 ## Features
 
@@ -71,11 +71,13 @@ agent.status = AgentStatus.WORKING
 ## Project Structure
 
 ```
-Agent-1.0/
+Social Media AI Agent/
 ├── models/
 │   ├── __init__.py
 │   └── agent.py          # Core agent models
 ├── requirements.txt      # Python dependencies
+├── app.py               # Flask web application
+├── example.py           # Usage example
 └── README.md            # This file
 ```
 
